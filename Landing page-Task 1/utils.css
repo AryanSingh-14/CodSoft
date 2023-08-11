@@ -1,0 +1,52 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 13px 5px;
+    border: 1px solid black;
+    border-radius: 14%;
+    background-color: #2874f0;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.btnbox {
+    margin: 23px 0 0 125px;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 14%;
+    background-color: #2874f0;
+    color: whitesmoke;
+    cursor: pointer;
+
+
+}
+
+.sp-btw {
+    justify-content: space-between;
+
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.bolder {
+    font-weight: 600;
+}

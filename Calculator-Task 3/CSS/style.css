@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+h1{
+    margin: 10px 0 5px 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.4em;
+}
+img{
+    width: 225px;
+}
+.btn{
+  width: 5vw;
+  height: 8vh;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.row-last{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.btn1{
+    border: 2px solid black;
+    width: 5vw;
+    height: 8vh;
+    cursor: pointer;
+}
+.btn2{
+    border: 5px solid black;
+    width: 15vw;
+   margin: 0 0 0 7px;
+   cursor: pointer;
+}
+.calculator{
+    border: 2px solid whitesmoke;
+    padding: 5px;
+   
+}
+.top input{
+    border: 3px solid yellow;
+    width: 20vw;
+    height: 8vh;
+    margin: 0 0 4px 2px;
+    padding: 0 0 0 5px;
+    font-weight: 400;
+}
