@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans';
+}
+
+body {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+
+}
+
+nav {
+    height: 14vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.logo {
+    padding: 5vh 0 0 5vw;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    fill: currentColor;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+span {
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 5vh 5vw 0 0;
+
+}
+
+.head {
+
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(229, 9, 20);
+}
+
+a:hover {
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.container {
+
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1vw;
+    row-gap: 5vh;
+}
+
+.tagline {
+    /* font-size: 1.5rem; */
+    color: white;
+    height: 60vh;
+    background-color: black;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.line1 {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.line2 {
+    font-size: 4rem;
+}
+
+.line3 {
+    font-size: 1.5rem;
+}
+
+.resume {
+    margin: 8vh 0 0 0;
+    height: 6vh;
+    width: 8vw;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background-color: rgb(229, 9, 20);
+    border-radius: 50px;
+}
+
+.resume:hover {
+    /* background-color: rgb(229, 9, 20); */
+    box-shadow: 0 0 6px 2px whitesmoke;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+#element {
+    color: whitesmoke;
+}
+
+#icons {
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    column-gap: 1vw;
+}
+
+.rightsection {
+    height: 60vh;
+    width: 40vw;
+    background-color: black;
+    background-image: url(oi.jpg);
+    background-size: 43vw;
+    background-repeat: no-repeat;
+    border: 1px solid whitesmoke;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin: 3.2vh 0 4vh 2vw;
+
+}
+
+.content a {
+    border-radius: 50px;
+    column-width: 3.3vw;
+    height: 6.5vh;
+    background-color: white;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.contact {
+    font-size: 2rem;
+    color: whitesmoke;
+    padding: 4vh 0 0 5vw;
+    font-weight: 900;
+    cursor: pointer;
+ 
+}
+
+
+.fb {
+    color: #1c1e21;
+}
+
+.insta {
+    color: rgb(229, 9, 20);
+}
+
+a.linkedin {
+    background-color: #0d266b;
+    color: white;
+}
+
+a.wp {
+    background-color: rgb(20, 230, 20);
+    color: whitesmoke;
+}
+
+a:hover {
+    background-color: black;
+    font-weight: bolder;
+}
+
+#about {
+    height: 70vh;
+    background-color: black;
+
+
+}
+
+.abtheading {
+    font-size: 2rem;
+    color: whitesmoke;
+    padding: 4vh 0 0 5vw;
+    font-weight: 900;
+    cursor: pointer;
+    text-align: center;
+    margin: 25px 80px 25px 0;
+}
+
+.abtcontent {
+    color: white;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.para {
+    width: 65vw;
+    height: 30vh;
+    background-color: black;
+    margin: auto;
+    padding: 8vh 2vw 0 2vw;
+    text-align: justify;
+    box-shadow: 2px 2px 5px 3px grey, -2px -2px 5px 3px grey;
+    border: 2px solid whitesmoke;
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5vw;
+    color: white;
+    margin: 0 0 0 0;
+    height: 40vh;
+}
+
+.educationhead {
+    font-size: 2rem;
+    color: white;
+    margin: 10vh 0 5vh 2vw;
+}
+
+.secondary {
+    width: 30vw;
+    height: 38vh;
+    border: 2px solid whitesmoke;
+    margin: 0 0 0 2vw;
+    box-shadow: 2px 2px 5px 4px grey, -2px -2px 5px 4px grey;
+}
+
+.highersecondary {
+    width: 30vw;
+    height: 38vh;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 5px 4px grey, -2px -2px 5px 4px grey;
+}
+
+.btech {
+    width: 30vw;
+    height: 38vh;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 5px 4px grey, -2px -2px 5px 4px grey;
+}
+
+h5 {
+    padding: 15px 20px;
+}
+
+.educontent li {
+    font-size: smaller;
+    list-style: inside;
+    padding: 10px 0 0 20px;
+    color: rgb(229, 9, 20);
+
+}
+
+.education ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillhead {
+    font-size: 2.3rem;
+    color: white;
+    margin: 30vh 0 4vh 2vw;
+    text-align: center;
+}
+
+.skills {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skillslogo{
+    height: 15vh;
+    width: 10vw;
+   margin: 0 0 0 28vw;
+}
+.skillspara {
+    color: whitesmoke;
+    width: 65vw;
+    height: 50vh;
+    text-align: justify;
+    font-size: 1.5rem;
+    padding: 0vw 4vh;
+    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 5px 4px grey, -2px -2px 5px 4px grey;
+}
+
+.exphead {
+    font-size: 2.3rem;
+    color: white;
+    margin: 30vh 0 0 2vw;
+}
+
+.exppara {
+    color: whitesmoke;
+    text-align: justify;
+    margin: 3vw 4vh;
+
+}
+
+.projectspara {
+    color: whitesmoke;
+    text-align: center;
+    padding: 6vh;
+}
+
+.flipkart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2vw;
+    height: 50vh;
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.one {
+    height: 50vh;
+    width: 40vw;
+    background-color: white;
+    background: white url(calculator.png) no-repeat;
+    background-size: contain;
+    border: 2px solid white;
+    margin: 4vh 2vw 15vh 2vw;
+
+}
+
+.propara {
+    color: white;
+    font-size: 1.5rem;
+    margin: 4vh 4vw;
+}
+
+.flippara {
+    padding: 10vh 0 0 0w;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.two {
+    height: 40vh;
+    width: 30vw;
+    background-color: white;
+    background: white url(flipkart1.png) no-repeat;
+    background-size: contain;
+    border: 4px solid #2874f0;
+}
+
+.three {
+    height: 40vh;
+    width: 30vw;
+    background-color: white;
+    background: white url(flipkart2.png) no-repeat;
+    background-size: contain;
+    border: 4px solid #2874f0;
+}
+
+.four {
+    height: 40vh;
+    width: 30vw;
+    background-color: white;
+    background: white url(flipkart3.png) no-repeat;
+    background-size: contain;
+    border: 4px solid #2874f0;
+}
+
+footer {
+    margin: 15vh 0 0 0;
+    height: 8vh;
+    background-color: rgb(47, 17, 75);
+    color: black;
+    text-align: center;
+    padding: 3vh 0 0 0;
+}
