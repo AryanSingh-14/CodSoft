@@ -10,6 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: black;
 
+
 }
 
 nav {
@@ -68,7 +69,6 @@ a:hover {
 }
 
 .tagline {
-    /* font-size: 1.5rem; */
     color: white;
     height: 60vh;
     background-color: black;
@@ -105,7 +105,6 @@ a:hover {
 }
 
 .resume:hover {
-    /* background-color: rgb(229, 9, 20); */
     box-shadow: 0 0 6px 2px whitesmoke;
     font-size: 1.3rem;
     cursor: pointer;
@@ -126,7 +125,7 @@ a:hover {
     height: 60vh;
     width: 40vw;
     background-color: black;
-    background-image: url(oi.jpg);
+    background-image: url(theme.jpg);
     background-size: 43vw;
     background-repeat: no-repeat;
     border: 1px solid whitesmoke;
@@ -151,13 +150,14 @@ a:hover {
     cursor: pointer;
     font-size: 1.1rem;
 }
+
 .contact {
     font-size: 2rem;
     color: whitesmoke;
     padding: 4vh 0 0 5vw;
     font-weight: 900;
     cursor: pointer;
- 
+
 }
 
 
@@ -214,8 +214,7 @@ a:hover {
     margin: auto;
     padding: 8vh 2vw 0 2vw;
     text-align: justify;
-    box-shadow: 2px 2px 5px 3px grey, -2px -2px 5px 3px grey;
-    border: 2px solid whitesmoke;
+    box-shadow: 2px 2px 8px 8px rgba(82, 77, 77, 0.897);
 }
 
 .education {
@@ -236,23 +235,21 @@ a:hover {
 .secondary {
     width: 30vw;
     height: 38vh;
-    border: 2px solid whitesmoke;
     margin: 0 0 0 2vw;
-    box-shadow: 2px 2px 5px 4px grey, -2px -2px 5px 4px grey;
+    box-shadow: 2px 2px 7px 5px rgba(82, 77, 77, 0.897);
+
 }
 
 .highersecondary {
     width: 30vw;
     height: 38vh;
-    border: 2px solid whitesmoke;
-    box-shadow: 2px 2px 5px 4px grey, -2px -2px 5px 4px grey;
+    box-shadow: 2px 2px 7px 5px rgba(82, 77, 77, 0.897);
 }
 
 .btech {
     width: 30vw;
     height: 38vh;
-    border: 2px solid whitesmoke;
-    box-shadow: 2px 2px 5px 4px grey, -2px -2px 5px 4px grey;
+    box-shadow: 2px 2px 7px 5px rgba(82, 77, 77, 0.897);
 }
 
 h5 {
@@ -286,11 +283,13 @@ h5 {
     justify-content: center;
     align-items: center;
 }
-.skillslogo{
+
+.skillslogo {
     height: 15vh;
     width: 10vw;
-   margin: 0 0 0 28vw;
+    margin: 0 0 0 28vw;
 }
+
 .skillspara {
     color: whitesmoke;
     width: 65vw;
@@ -298,8 +297,7 @@ h5 {
     text-align: justify;
     font-size: 1.5rem;
     padding: 0vw 4vh;
-    border: 2px solid whitesmoke;
-    box-shadow: 2px 2px 5px 4px grey, -2px -2px 5px 4px grey;
+    box-shadow: 2px 2px 8px 8px rgba(82, 77, 77, 0.897);
 }
 
 .exphead {
@@ -321,70 +319,158 @@ h5 {
     padding: 6vh;
 }
 
+.project-flipkart {
+    display: flex;
+}
+
 .flipkart {
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 2vw;
     height: 50vh;
+    margin: 5vh 6vw;
 }
 
 .calc {
     display: flex;
-    justify-content: center;
     align-items: center;
 
 }
 
 .one {
-    height: 50vh;
-    width: 40vw;
+    height: 30vh;
+    width: 25vw;
     background-color: white;
     background: white url(calculator.png) no-repeat;
     background-size: contain;
-    border: 2px solid white;
-    margin: 4vh 2vw 15vh 2vw;
+    border: 1px solid white;
+    margin: 7vh 2vw 15vh 6vw;
 
 }
 
 .propara {
     color: white;
     font-size: 1.5rem;
-    margin: 4vh 4vw;
+    margin: 2vh 4vw;
 }
 
 .flippara {
-    padding: 10vh 0 0 0w;
+    margin: 40vh 0 5vh 3vw;
     text-align: center;
     color: white;
     font-size: 1.5rem;
 }
 
+.flipkart {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+
+}
+
 .two {
-    height: 40vh;
-    width: 30vw;
+    height: 80vh;
+    width: 21vw;
     background-color: white;
     background: white url(flipkart1.png) no-repeat;
     background-size: contain;
-    border: 4px solid #2874f0;
+
 }
 
 .three {
-    height: 40vh;
-    width: 30vw;
+    height: 80vh;
+    width: 21vw;
     background-color: white;
     background: white url(flipkart2.png) no-repeat;
     background-size: contain;
-    border: 4px solid #2874f0;
+
 }
 
 .four {
-    height: 40vh;
-    width: 30vw;
+    height: 80vh;
+    width: 21vw;
     background-color: white;
     background: white url(flipkart3.png) no-repeat;
     background-size: contain;
-    border: 4px solid #2874f0;
+
+}
+
+.five {
+    height: 80vh;
+    width: 21vw;
+    background-color: white;
+    background: white url(landing1.png) no-repeat;
+    background-size: contain;
+
+}
+
+.six {
+    height: 80vh;
+    width: 21vw;
+    background-color: white;
+    background: white url(landing2.png) no-repeat;
+    background-size: contain;
+
+}
+
+.seven {
+    height: 80vh;
+    width: 21vw;
+    background-color: white;
+    background: white url(landing3.png) no-repeat;
+    background-size: contain;
+}
+
+.project-landing {
+    display: flex;
+
+
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+
+
+    height: 63.7vh;
+    margin: 5vh 6vw;
+}
+
+.project-rightlanding {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landpara {
+    color: white;
+    font-size: 1.5rem;
+    margin: 4vh 4vw;
+}
+
+.view-code {
+    padding: 5px 3px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    margin: 0 11vw;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+
+.view-code:hover {
+    border: 2px solid black;
+    box-shadow: 0 0 6px 2px grey;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding: 6px 4px;
+
+    color: rgb(229, 9, 20);
+
 }
 
 footer {
