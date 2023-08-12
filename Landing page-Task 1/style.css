@@ -1,0 +1,109 @@
+.logo {
+    font-size: 1.4rem;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin: 3vh 0 0 5.5vw;
+}
+
+header {
+    height: 10vh;
+    border-bottom: 1px solid black;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/white.jpg);
+}
+
+li {
+    list-style: none;
+    margin: 0 1vw;
+}
+
+nav {
+    margin: 1vh 5vw 0 0;
+    cursor: pointer;
+}
+
+
+.topleft {
+    width: 50vw;
+    height: 70vh;
+    padding: 8vh;
+
+}
+
+.topright {
+    width: 50vw;
+    min-height: 70vh;
+}
+
+img {
+    /* border: 1px solid  rgba(41, 38, 38, 0.897) ; */
+    width: 35vw;
+    height: 60vh;
+
+}
+
+.heading {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.section2 {
+    width: 80vw;
+    height: 60vh;
+    margin: 25vh 10vw 20vh 20vh;
+}
+
+h2 {
+    padding: 0 0 10px 0;
+    border-bottom: 2px solid black;
+    border-color: rgba(82, 77, 77, 0.438);
+}
+
+.box {
+    width: 25vw;
+    height: 56vh;
+    margin: 1vh 2vw;
+    /* border: 1px solid rgba(41, 38, 38, 0.897); */
+    box-shadow: 2px 2px 4px 3px rgba(82, 77, 77, 0.897);
+
+}
+
+
+.space {
+    margin: 0 0 1vh 0;
+}
+
+.contact {
+    width: 50vw;
+    height: 9vh;
+    background-color: #a3b9c7;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    box-shadow: 2px 2px 4px 3px rgba(82, 77, 77, 0.897);
+    margin: 2vh 0;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 0 0 0 30px;
+}
+
+.btncontact {
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: #e0b6aa;
+    margin: 4vh 0 0 0;
+}
+
+.section3 {
+    margin: 40vh 0;
+}
+footer{
+    height: 10vh;
+    background-color:#e0b6aa;
+
+}
